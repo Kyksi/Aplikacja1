@@ -1,0 +1,44 @@
+package com.naz.myapp;
+
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.*;
+
+import java.util.Random;
+
+public class MainModule extends AppCompatActivity {
+
+    Random rand = new Random();
+    EditText myText;
+    TextView textView;
+    Button button;
+    String[] przysliwia = {"A co po czyjej wielkosci, jak nie ma w glowie madrosci", "Chcesz byc bogatym, badz siedem lat swinia",
+            "Jaka praca, taka placa", "Kto pod kim dolki kopie, ten sam w nie wpada", "Kuj zelazo poki gorace", "Biednemu zawsze wiatr w oczy",
+            "Za mlodu zyjesz marzeniem, na starosc wspomnieniem", "Kto cuchnie leniem, bedzie cieniem.",
+            "Nie bylo nas, byl las, nie bedzie nas, bedzie las.", "Glod zaglada tylko do drzwi pracowitego, ale nie wchodzi.",
+            "Lepszy jest jawny gniew niz zmyslona przyjazn.", "Glupich nie orza, nie sieja, sami sie rodza.", "Kazdy czas ma swoja twarz."};
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main_module);
+
+        myText = (EditText) findViewById(R.id.editText1);
+        button = (Button) findViewById(R.id.button);
+        textView = (TextView) findViewById(R.id.textView);
+
+        View.OnClickListener oclBtnOk = new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(getApplicationContext(),
+                        "Przyslowie zostalo zmienione", Toast.LENGTH_SHORT).show();
+                textView.setText(przysliwia[rand.nextInt(13)]);
+                myText.setVisibility(View.INVISIBLE);
+            }
+        };
+
+        button.setOnClickListener(oclBtnOk);
+    }
+
+}

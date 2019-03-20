@@ -1,0 +1,187 @@
+<resources>
+    <string name="app_name">Licznik kalorii</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_second">Licznik kalorii</string>
+    <string name="title_home">Masz pusty koszyk \nWybierz z listy produktow</string>
+
+    <string-array name="owoce">
+        <item>Arbuz</item>
+        <item>Morele</item>
+        <item>Awokado</item>
+        <item>Ananas</item>
+        <item>Banan</item>
+        <item>Pomarańcza</item>
+        <item>Winogrona</item>
+        <item>Wiśnia</item>
+        <item>Kiwi</item>
+        <item>Mango</item>
+        <item>Cytryna</item>
+        <item>Grejpfrut</item>
+        <item>Jabłka</item>
+        <item>Truskawki</item>
+        <item>Porzeczki</item>
+        <item>Żurawina</item>
+    </string-array>
+    <string-array name="owoce_kkal">
+        <item>330</item>
+        <item>470</item>
+        <item>1610</item>
+        <item>440</item>
+        <item>900</item>
+        <item>450</item>
+        <item>700</item>
+        <item>250</item>
+        <item>570</item>
+        <item>650</item>
+        <item>300</item>
+        <item>390</item>
+        <item>450</item>
+        <item>340</item>
+        <item>600</item>
+        <item>490</item>
+    </string-array>
+    <string-array name="warzywa">
+        <item>Bakłażan</item>
+        <item>Kapusta</item>
+        <item>Brokuły</item>
+        <item>Ziemniaki</item>
+        <item>Cebula</item>
+        <item>Kabaczek</item>
+        <item>Marchew</item>
+        <item>Ogórki</item>
+        <item>Pomidory</item>
+        <item>Rzodkiewka</item>
+        <item>Rzepa</item>
+        <item>Sałata</item>
+        <item>Pasternak</item>
+        <item>Burak</item>
+    </string-array>
+    <string-array name="warzywa_kkal">
+        <item>260</item>
+        <item>200</item>
+        <item>290</item>
+        <item>600</item>
+        <item>430</item>
+        <item>380</item>
+        <item>330</item>
+        <item>150</item>
+        <item>200</item>
+        <item>250</item>
+        <item>370</item>
+        <item>150</item>
+        <item>690</item>
+        <item>400</item>
+    </string-array>
+    <string-array name="chleb">
+        <item>Chleb pszenny</item>
+        <item>Chleb żytni</item>
+        <item>Рieczywo</item>
+    </string-array>
+    <string-array name="chleb_kkal">
+        <item>2650</item>
+        <item>2100</item>
+        <item>3050</item>
+    </string-array>
+    <string-array name="mieso">
+        <item>Jagnięcina</item>
+        <item>Szynka</item>
+        <item>Wołowina</item>
+        <item>Gęś</item>
+        <item>Indyk</item>
+        <item>Króliki</item>
+        <item>Kurczak</item>
+        <item>Wieprzowina</item>
+        <item>Kaczka</item>
+        <item>Salami</item>
+        <item>Parówki</item>
+        <item>Kiełbasa z Dzika</item>
+    </string-array>
+    <string-array name="mieso_kkal">
+        <item>3160</item>
+        <item>3650</item>
+        <item>1800</item>
+        <item>3000</item>
+        <item>1500</item>
+        <item>1150</item>
+        <item>1900</item>
+        <item>3100</item>
+        <item>4000</item>
+        <item>5680</item>
+        <item>3420</item>
+        <item>2500</item>
+    </string-array>
+    <string-array name="mleko">
+        <item>Jogurt (1.5%)</item>
+        <item>Kefir (1.5%)</item>
+        <item>Mleko (3%)</item>
+        <item>Śmietana (10%)</item>
+        <item>Śmietana (20%)</item>
+        <item>Ser twardy</item>
+        <item>Twaróg (18%)</item>
+        <item>Jajko kurze</item>
+    </string-array>
+    <string-array name="mleko_kkal">
+        <item>510</item>
+        <item>470</item>
+        <item>600</item>
+        <item>1150</item>
+        <item>2100</item>
+        <item>3700</item>
+        <item>2260</item>
+        <item>1570</item>
+    </string-array>
+    <string-array name="ryby">
+        <item>Kawior ziarnisty</item>
+        <item>Kalmar</item>
+        <item>Krewetki</item>
+        <item>Karp</item>
+        <item>Сzarniak</item>
+        <item>Okoń</item>
+        <item>Kapusta morska</item>
+    </string-array>
+    <string-array name="ryby_kkal">
+        <item>2400</item>
+        <item>750</item>
+        <item>850</item>
+        <item>1450</item>
+        <item>800</item>
+        <item>950</item>
+        <item>160</item>
+    </string-array>
+    <string-array name="krupy">
+        <item>Mąka</item>
+        <item>Kasza gryczana</item>
+        <item>Kasza manna</item>
+        <item>Kasza owsiana</item>
+        <item>Kasza jęczmienna</item>
+        <item>Kasza pszenna</item>
+        <item>Kasza pęczak</item>
+        <item>Płatki kukurydziane</item>
+        <item>Makarony</item>
+        <item>Ryż</item>
+    </string-array>
+    <string-array name="krupy_kkal">
+        <item>3400</item>
+        <item>3460</item>
+        <item>3400</item>
+        <item>3740</item>
+        <item>3420</item>
+        <item>3520</item>
+        <item>3430</item>
+        <item>3690</item>
+        <item>3500</item>
+        <item>1300</item>
+    </string-array>
+</resources>
